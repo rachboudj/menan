@@ -89,6 +89,10 @@ section {
     margin: 0 auto;
 }
 
+#boutique2 img {
+    width: 100%;
+}
+
 footer {
     text-align: center;
 }
