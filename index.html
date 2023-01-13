@@ -8,16 +8,16 @@
     <meta name="title" content="Les 2 théories les plus folles sur les pyramides d'Égypte">
     <meta name="description"
         content="L'Égypte et ses pyramides : un grand mystère... Découvrez ici les théories les plus farfelues sur la construction des Pyramides de Gizeh.">
-    <meta name="keywords" content="" />
+    <meta name="keywords" content="pyramide, theorie" />
     <title>Les théories sur les pyramides d'Égypte</title>
 
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
-    <header>
+    <header id="haut">
         <div class="logo">
-            Menan
+            <img src="./assets/img/logoeval.png" alt="Le logo de Menan illustrant une pyramide avec un soleil et le désert">
         </div>
         <nav>
             <li><a href="#">Accueil</a></li>
@@ -28,7 +28,7 @@
     </header>
     <section id="presentation">
         <h1>Les pyramides d'Égypte</h1>
-        <button><a class="bab" href="#histoire">Cliquez-ici pour en savoir plus</a></button>
+        <button><a onclick="playSound()" class="bab" href="#histoire">Cliquez-ici pour en savoir plus</a></button>
     </section>
 
     <section id="histoire">
@@ -96,14 +96,18 @@
 
     <section id="shop">
         <h2>Notre boutique</h2>
-        <button><a href="">Visiter notre boutique</a></button>
+        <button><a href="./page/boutique.html">Visiter notre boutique</a></button>
     </section>
 
     <footer>
         <div class="copyright">
             <p>Site réalisé avec ❤️ par Lucie, Corentin, Ismaël et Rachid.</p>
         </div>
+
+        <a onclick="playSound2()" href="#haut">REVENIR EN HAUT</a>
     </footer>
+
+    <script src="./assets/js/script.js"></script>
 </body>
 
 </html>
